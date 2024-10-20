@@ -38,7 +38,7 @@ export const NavBar = () => {
           <Container>
             <Navbar.Brand href="/">
                 <div className="navLogoContainer">
-                  An The Marketer
+                  Someone The Marketer
                     {/* <img src={logo} alt="Logo" /> */}
                 </div>
             </Navbar.Brand>
@@ -52,8 +52,8 @@ export const NavBar = () => {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                  <a href="https://www.linkedin.com/in/thi%C3%AAn-%C3%A2n-nguy%E1%BB%85n-%C4%91%E1%BB%97-8b0380212/"><img src={navIcon1} alt="" /></a>
-                  <a href="https://www.facebook.com/profile.php?id=100013758813611"><img src={navIcon2} alt="" /></a>
+                  <a href="https://www.linkedin.com"><img src={navIcon1} alt="" /></a>
+                  <a href="https://www.facebook.com"><img src={navIcon2} alt="" /></a>
                 </div>
                 <HashLink to='#footer'>
                   <button className="vvd"><span>Let’s Connect</span></button>

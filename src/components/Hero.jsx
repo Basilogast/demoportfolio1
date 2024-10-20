@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import heroImg from "../assets/img/ruou1.jpg";
+import heroImg from "../assets/img/demo/22.png";
 
 export const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -64,7 +64,7 @@ export const Hero = () => {
                     }
                   >
                     <p className="textRotate">
-                      {`I'm An, `}{" "}
+                      {`I'm [YOUR NAME], `}{" "}
                       <span
                         className="txt-rotate"
                         dataPeriod="1000"
@@ -73,7 +73,7 @@ export const Hero = () => {
                         <span className="wrap">{text}</span>
                       </span>
                     </p>
-                    <h1>Nguyen Do Thien An</h1>
+                    <h1>[YOUR NAME]</h1>
                     <p className="Para">
                       I understand that starting a career can be challenging,
                       but I am not ​intimidated by difficulties. Instead, I see

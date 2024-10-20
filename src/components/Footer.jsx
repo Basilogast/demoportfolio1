@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import star from "../assets/img/starinhand.png";
-import hero from "../assets/img/ruou1.jpg";
+import hero from "../assets/img/demo/22.png";
 import location from "../assets/img/location.svg";
 import mail from "../assets/img/mail.svg";
 import phone from "../assets/img/phone.svg";
@@ -85,7 +85,7 @@ export const Footer = () => {
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <p className="email-wrapper">annguyen20112003@gmail.com</p>
+                  <p className="email-wrapper">example@gmail.com</p>
                 </div>
               </div>
               <div className="d-flex" style={{ margin: "10px 0" }}>
@@ -94,7 +94,7 @@ export const Footer = () => {
                 </div>
                 <div>
                   <h3>Phone</h3>
-                  <p>0902784042</p>
+                  <p>0123456789</p>
                 </div>
               </div>
 
